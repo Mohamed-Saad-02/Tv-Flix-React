@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { useMovie } from "../../context/moviContext";
-import img from "../../../public/logo.svg";
 
 export default function Logo() {
   const { dispatch } = useMovie();
@@ -8,7 +7,12 @@ export default function Logo() {
   return (
     <div onClick={() => dispatch({ type: "changeSearchQuery", payload: "" })}>
       <Link to="/">
-        <img className="w-40 h-10" loading="lazy" src={img} alt="logo" />
+        <img
+          className="w-40 h-10"
+          loading="lazy"
+          src={"/logo.svg"}
+          alt="logo"
+        />
       </Link>
     </div>
   );

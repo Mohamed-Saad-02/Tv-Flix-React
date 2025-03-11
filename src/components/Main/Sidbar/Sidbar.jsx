@@ -41,7 +41,7 @@ export default function Sidbar() {
             Copyright {year} By{" "}
             <span className="text-zinc-300">
               <a
-                href="https://www.linkedin.com/in/mohamed-saad-025268304/"
+                href="https://www.linkedin.com/in/mohamed-saad-6a8248354"
                 target="_blank"
                 rel="noreferrer"
               >
